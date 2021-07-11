@@ -24,8 +24,8 @@ def sendEmail(subject, message):
   server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
   password= "Helloworld1!"
   server.login(tEmail, password)
-
-  server.sendmail(tEmail, "llocker23@students.d125.org", 'Subject: {}\n\n{}'.format(subject, message))
+  toEmail = '[SendToEmail]'
+  server.sendmail(tEmail, toEmail, 'Subject: {}\n\n{}'.format(subject, message))
   server.quit()
 
   print('Message Sent Successfully')
