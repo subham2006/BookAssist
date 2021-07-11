@@ -133,3 +133,12 @@ yarg==0.1.9
 yarl==1.6.3
 yaspin==2.0.0
 zipp==3.4.1
+torch
+torchvision>=0.5
+opencv-python
+scipy
+numpy
+Pillow<8.3.0
+scikit-image
+python-bidi
+PyYAML
