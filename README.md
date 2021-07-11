@@ -1,5 +1,4 @@
 # BookAssist
-
 ## Inspiration
 With the transition back to in-person learning around the corner, we found that there was a large need for an application that allowed students to clarify subjects and problems that they had trouble with that they could not target when learning online.
 ## What it does
