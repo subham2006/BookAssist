@@ -14,6 +14,12 @@ We learned a lot about Flutter and Google Colab and how to create Web Apps from 
 In the future we plan to expand to schools and increase our span of outreach in order to help aid more students.
 
 
-Youtube Link: 
+Youtube Link: <https://youtu.be/trkDlYIMmDY>
+Webapp: <https://bookassist.web.app/#/>
 
-<https://bookassist.web.app/#/>
+### Libraries Used
+<https://github.com/JaidedAI/EasyOCR>
+<https://github.com/miso-belica/sumy>
+<https://github.com/thisbejim/Pyrebase>
+<https://github.com/arduino-libraries/WiFiNINA>
+<https://github.com/mobizt/Firebase-Arduino-WiFiNINA>
