@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03a913b7-9fad-45c0-ac19-c1b651d852b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/android/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/kotlin/com/example/dormsafe/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/kotlin/com/example/dormsafe/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/profile/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/signIn.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/signIn.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/icons/Icon-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/icons/Icon-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/manifest.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/akhilramidi/.android/avd/Pixel_2_API_S.avd]" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1uUmyUjy3XlKMkoMTwQZ6ovTl0l" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03a913b7-9fad-45c0-ac19-c1b651d852b8" name="Default Changelist" comment="" />
+      <created>1624728796970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624728796970</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1097" y="574" key="#Notifications" timestamp="1624731309659">
+      <screen x="0" y="25" width="2560" height="1346" />
+    </state>
+    <state x="1097" y="574" key="#Notifications/0.25.2560.1346@0.25.2560.1346" timestamp="1624731309658" />
+    <state x="906" y="447" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1624731325077">
+      <screen x="0" y="25" width="2560" height="1346" />
+    </state>
+    <state x="906" y="447" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.2560.1346@0.25.2560.1346" timestamp="1624731325077" />
+    <state x="464" y="226" width="900" height="642" key="AVDManager" timestamp="1626034392106">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="464" y="226" width="900" height="642" key="AVDManager/0.0.1920.1080/-1280.154.1280.720@0.0.1920.1080" timestamp="1626034392106" />
+    <state x="619" y="307" width="1200" height="800" key="AVDManager/0.25.2560.1346@0.25.2560.1346" timestamp="1624733442079" />
+    <state width="2518" height="264" key="GridCell.Tab.0.bottom" timestamp="1624756042657">
+      <screen x="0" y="25" width="2560" height="1346" />
+    </state>
+    <state width="2518" height="264" key="GridCell.Tab.0.bottom/0.25.2560.1346@0.25.2560.1346" timestamp="1624756042657" />
+    <state width="2518" height="264" key="GridCell.Tab.0.center" timestamp="1624756042656">
+      <screen x="0" y="25" width="2560" height="1346" />
+    </state>
+    <state width="2518" height="264" key="GridCell.Tab.0.center/0.25.2560.1346@0.25.2560.1346" timestamp="1624756042656" />
+    <state width="2518" height="264" key="GridCell.Tab.0.left" timestamp="1624756042655">
+      <screen x="0" y="25" width="2560" height="1346" />
+    </state>
+    <state width="2518" height="264" key="GridCell.Tab.0.left/0.25.2560.1346@0.25.2560.1346" timestamp="1624756042655" />
+    <state width="2518" height="264" key="GridCell.Tab.0.right" timestamp="1624756042656">
+      <screen x="0" y="25" width="2560" height="1346" />
+    </state>
+    <state width="2518" height="264" key="GridCell.Tab.0.right/0.25.2560.1346@0.25.2560.1346" timestamp="1624756042656" />
+    <state x="683" y="348" key="SettingsEditor" timestamp="1624733141066">
+      <screen x="0" y="25" width="2560" height="1346" />
+    </state>
+    <state x="683" y="348" key="SettingsEditor/0.25.2560.1346@0.25.2560.1346" timestamp="1624733141066" />
+    <state x="612" y="305" width="1200" height="800" key="dock-window-1" timestamp="1624735622590">
+      <screen x="0" y="25" width="2560" height="1346" />
+    </state>
+    <state x="612" y="305" width="1200" height="800" key="dock-window-1/0.25.2560.1346@0.25.2560.1346" timestamp="1624735622590" />
+    <state x="877" y="426" width="670" height="676" key="search.everywhere.popup" timestamp="1624736128331">
+      <screen x="0" y="25" width="2560" height="1346" />
+    </state>
+    <state x="877" y="426" width="670" height="676" key="search.everywhere.popup/0.25.2560.1346@0.25.2560.1346" timestamp="1624736128331" />
+  </component>
+</project>

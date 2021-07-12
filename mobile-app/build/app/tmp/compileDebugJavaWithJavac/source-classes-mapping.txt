@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/akhilr/dormsafe/BuildConfig.java
+ com.akhilr.dormsafe.BuildConfig

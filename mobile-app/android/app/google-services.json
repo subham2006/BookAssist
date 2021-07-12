@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "858171101294",
+    "firebase_url": "https://pihacks-b60b7-default-rtdb.firebaseio.com",
+    "project_id": "pihacks-b60b7",
+    "storage_bucket": "pihacks-b60b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858171101294:android:b8e7631120afdb0a32167f",
+        "android_client_info": {
+          "package_name": "com.akhilr.dormsafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858171101294-sjvab6h82natrgcak0kt57t22hu481m4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuuaF_hNz1PjOFGmI49kkgl4Tiiddvgm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858171101294-sjvab6h82natrgcak0kt57t22hu481m4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "858171101294-vs1jb9dg410r7qhaf5iisrn42n4cgnm1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.akhilr.secura"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

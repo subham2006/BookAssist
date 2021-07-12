@@ -1,0 +1,342 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bookassistweb"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->[:camera] /Users/akhilramidi/Desktop/bookassistweb/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-65
+15-->[:camera] /Users/akhilramidi/Desktop/bookassistweb/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-62
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->[:camera] /Users/akhilramidi/Desktop/bookassistweb/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-71
+16-->[:camera] /Users/akhilramidi/Desktop/bookassistweb/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-68
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+17-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:22-76
+18
+19    <application
+19-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:3:4-40:19
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.5.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/347814567c8fb3becfdf858e9729d475/core-1.5.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:5:9-43
+23        android:label="bookassistweb" >
+23-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:4:9-38
+24        <activity
+24-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:6:9-34:20
+25            android:name="com.example.bookassistweb.MainActivity"
+25-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:7:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:10:13-163
+27            android:hardwareAccelerated="true"
+27-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:11:13-47
+28            android:launchMode="singleTop"
+28-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:8:13-43
+29            android:theme="@style/LaunchTheme"
+29-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:9:13-47
+30            android:windowSoftInputMode="adjustResize" >
+30-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:12:13-55
+31
+32            <!--
+33                 Specifies an Android theme to apply to this Activity as soon as
+34                 the Android process has started. This theme is visible to the user
+35                 while the Flutter UI initializes. After that, this theme continues
+36                 to determine the Window background behind the Flutter UI.
+37            -->
+38            <meta-data
+38-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:17:13-20:17
+39                android:name="io.flutter.embedding.android.NormalTheme"
+39-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:18:15-70
+40                android:resource="@style/NormalTheme" />
+40-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:19:15-52
+41            <!--
+42                 Displays an Android View that continues showing the launch screen
+43                 Drawable until Flutter paints its first frame, then this splash
+44                 screen fades out. A splash screen is useful to avoid any visual
+45                 gap between the end of Android's launch screen and the painting of
+46                 Flutter's first frame.
+47            -->
+48            <meta-data
+48-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:26:13-29:17
+49                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+49-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:27:15-79
+50                android:resource="@drawable/launch_background" />
+50-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:28:15-61
+51
+52            <intent-filter>
+52-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:30:13-33:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:31:17-68
+53-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:31:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:32:17-76
+55-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:32:27-74
+56            </intent-filter>
+57        </activity>
+58        <!--
+59             Don't delete the meta-data below.
+60             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+61        -->
+62        <meta-data
+62-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:37:9-39:33
+63            android:name="flutterEmbedding"
+63-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:38:13-44
+64            android:value="2" />
+64-->/Users/akhilramidi/Desktop/bookassistweb/android/app/src/main/AndroidManifest.xml:39:13-30
+65
+66        <service
+66-->[:firebase_database] /Users/akhilramidi/Desktop/bookassistweb/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+67            android:name="com.google.firebase.components.ComponentDiscoveryService"
+67-->[:firebase_database] /Users/akhilramidi/Desktop/bookassistweb/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+68            android:directBootAware="true"
+68-->[com.google.firebase:firebase-common:20.0.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/63bd66ee5f778cdf068b521e311bfeab/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+69            android:exported="false" >
+69-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+70            <meta-data
+70-->[:firebase_database] /Users/akhilramidi/Desktop/bookassistweb/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+71                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+71-->[:firebase_database] /Users/akhilramidi/Desktop/bookassistweb/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[:firebase_database] /Users/akhilramidi/Desktop/bookassistweb/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+73            <meta-data
+73-->[:cloud_firestore] /Users/akhilramidi/Desktop/bookassistweb/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+74-->[:cloud_firestore] /Users/akhilramidi/Desktop/bookassistweb/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[:cloud_firestore] /Users/akhilramidi/Desktop/bookassistweb/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+76            <meta-data
+76-->[:firebase_auth] /Users/akhilramidi/Desktop/bookassistweb/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+77-->[:firebase_auth] /Users/akhilramidi/Desktop/bookassistweb/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[:firebase_auth] /Users/akhilramidi/Desktop/bookassistweb/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+79            <meta-data
+79-->[:firebase_storage] /Users/akhilramidi/Desktop/bookassistweb/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+80                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+80-->[:firebase_storage] /Users/akhilramidi/Desktop/bookassistweb/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[:firebase_storage] /Users/akhilramidi/Desktop/bookassistweb/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+82            <meta-data
+82-->[:firebase_core] /Users/akhilramidi/Desktop/bookassistweb/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+83                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+83-->[:firebase_core] /Users/akhilramidi/Desktop/bookassistweb/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[:firebase_core] /Users/akhilramidi/Desktop/bookassistweb/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+86                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+86-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-firestore:23.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/a3db7363d1bfbe55fcf253867460fd6f/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:20:13-22:85
+89                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+89-->[com.google.firebase:firebase-firestore:23.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/a3db7363d1bfbe55fcf253867460fd6f/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:21:17-111
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-firestore:23.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/a3db7363d1bfbe55fcf253867460fd6f/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:22:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-storage:20.0.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/c44db8c58d98c653f250017990c94eeb/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+92                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+92-->[com.google.firebase:firebase-storage:20.0.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/c44db8c58d98c653f250017990c94eeb/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-storage:20.0.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/c44db8c58d98c653f250017990c94eeb/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-database:20.0.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/f3d846e0216b825d3ab6d0d94188efc4/jetified-firebase-database-20.0.0/AndroidManifest.xml:32:13-34:85
+95                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+95-->[com.google.firebase:firebase-database:20.0.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/f3d846e0216b825d3ab6d0d94188efc4/jetified-firebase-database-20.0.0/AndroidManifest.xml:33:17-109
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-database:20.0.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/f3d846e0216b825d3ab6d0d94188efc4/jetified-firebase-database-20.0.0/AndroidManifest.xml:34:17-82
+97        </service>
+98
+99        <provider
+99-->[:image_picker] /Users/akhilramidi/Desktop/bookassistweb/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+100            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+100-->[:image_picker] /Users/akhilramidi/Desktop/bookassistweb/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+101            android:authorities="com.example.bookassistweb.flutter.image_provider"
+101-->[:image_picker] /Users/akhilramidi/Desktop/bookassistweb/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+102            android:exported="false"
+102-->[:image_picker] /Users/akhilramidi/Desktop/bookassistweb/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+103            android:grantUriPermissions="true" >
+103-->[:image_picker] /Users/akhilramidi/Desktop/bookassistweb/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+104            <meta-data
+104-->[:image_picker] /Users/akhilramidi/Desktop/bookassistweb/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+105                android:name="android.support.FILE_PROVIDER_PATHS"
+105-->[:image_picker] /Users/akhilramidi/Desktop/bookassistweb/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+106                android:resource="@xml/flutter_image_picker_file_paths" />
+106-->[:image_picker] /Users/akhilramidi/Desktop/bookassistweb/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+107        </provider>
+108        <provider
+108-->[:esys_flutter_share] /Users/akhilramidi/Desktop/bookassistweb/build/esys_flutter_share/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+109            android:name="de.esys.esysfluttershare.EsysFlutterShareFileProvider"
+109-->[:esys_flutter_share] /Users/akhilramidi/Desktop/bookassistweb/build/esys_flutter_share/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-81
+110            android:authorities="com.example.bookassistweb.fileprovider.github.com/orgs/esysberlin/esys-flutter-share"
+110-->[:esys_flutter_share] /Users/akhilramidi/Desktop/bookassistweb/build/esys_flutter_share/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-110
+111            android:exported="false"
+111-->[:esys_flutter_share] /Users/akhilramidi/Desktop/bookassistweb/build/esys_flutter_share/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+112            android:grantUriPermissions="true" >
+112-->[:esys_flutter_share] /Users/akhilramidi/Desktop/bookassistweb/build/esys_flutter_share/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+113            <meta-data
+113-->[:image_picker] /Users/akhilramidi/Desktop/bookassistweb/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+114                android:name="android.support.FILE_PROVIDER_PATHS"
+114-->[:image_picker] /Users/akhilramidi/Desktop/bookassistweb/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+115                android:resource="@xml/esys_flutter_share_filepaths" />
+115-->[:image_picker] /Users/akhilramidi/Desktop/bookassistweb/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+116        </provider>
+117
+118        <activity
+118-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+119            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+119-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+120            android:excludeFromRecents="true"
+120-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+121            android:exported="true"
+121-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+122            android:launchMode="singleTask"
+122-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+123-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+124            <intent-filter>
+124-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+125                <action android:name="android.intent.action.VIEW" />
+125-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+125-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+126
+127                <category android:name="android.intent.category.DEFAULT" />
+127-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+127-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+128                <category android:name="android.intent.category.BROWSABLE" />
+128-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+128-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+129
+130                <data
+130-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+131                    android:host="firebase.auth"
+131-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+132                    android:path="/"
+132-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+133                    android:scheme="genericidp" />
+133-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+134            </intent-filter>
+135        </activity>
+136        <activity
+136-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+137            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+137-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+138            android:excludeFromRecents="true"
+138-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+139            android:exported="true"
+139-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+140            android:launchMode="singleTask"
+140-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+141            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+141-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+142            <intent-filter>
+142-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+143                <action android:name="android.intent.action.VIEW" />
+143-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+143-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+144
+145                <category android:name="android.intent.category.DEFAULT" />
+145-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+145-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+146                <category android:name="android.intent.category.BROWSABLE" />
+146-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+146-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+147
+148                <data
+148-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+149                    android:host="firebase.auth"
+149-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+150                    android:path="/"
+150-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+151                    android:scheme="recaptcha" />
+151-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+152            </intent-filter>
+153        </activity>
+154
+155        <service
+155-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+156            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+156-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+157            android:enabled="true"
+157-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+158            android:exported="false" >
+158-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+159            <intent-filter>
+159-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+160                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+160-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+160-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+161
+162                <category android:name="android.intent.category.DEFAULT" />
+162-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+162-->[com.google.firebase:firebase-auth:21.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/2bb21b284d505c34272e54adc8910a5b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+163            </intent-filter>
+164        </service>
+165
+166        <provider
+166-->[com.google.firebase:firebase-common:20.0.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/63bd66ee5f778cdf068b521e311bfeab/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+167            android:name="com.google.firebase.provider.FirebaseInitProvider"
+167-->[com.google.firebase:firebase-common:20.0.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/63bd66ee5f778cdf068b521e311bfeab/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+168            android:authorities="com.example.bookassistweb.firebaseinitprovider"
+168-->[com.google.firebase:firebase-common:20.0.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/63bd66ee5f778cdf068b521e311bfeab/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+169            android:directBootAware="true"
+169-->[com.google.firebase:firebase-common:20.0.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/63bd66ee5f778cdf068b521e311bfeab/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+170            android:exported="false"
+170-->[com.google.firebase:firebase-common:20.0.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/63bd66ee5f778cdf068b521e311bfeab/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+171            android:initOrder="100" />
+171-->[com.google.firebase:firebase-common:20.0.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/63bd66ee5f778cdf068b521e311bfeab/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+172
+173        <activity
+173-->[com.google.android.gms:play-services-auth:16.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/bae5dc3f5727279610a8b931c3274cf2/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+174            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+174-->[com.google.android.gms:play-services-auth:16.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/bae5dc3f5727279610a8b931c3274cf2/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+175            android:excludeFromRecents="true"
+175-->[com.google.android.gms:play-services-auth:16.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/bae5dc3f5727279610a8b931c3274cf2/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+176            android:exported="false"
+176-->[com.google.android.gms:play-services-auth:16.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/bae5dc3f5727279610a8b931c3274cf2/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+177            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+177-->[com.google.android.gms:play-services-auth:16.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/bae5dc3f5727279610a8b931c3274cf2/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+178        <!--
+179            Service handling Google Sign-In user revocation. For apps that do not integrate with
+180            Google Sign-In, this service will never be started.
+181        -->
+182        <service
+182-->[com.google.android.gms:play-services-auth:16.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/bae5dc3f5727279610a8b931c3274cf2/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+183            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+183-->[com.google.android.gms:play-services-auth:16.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/bae5dc3f5727279610a8b931c3274cf2/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+184            android:exported="true"
+184-->[com.google.android.gms:play-services-auth:16.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/bae5dc3f5727279610a8b931c3274cf2/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+185            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+185-->[com.google.android.gms:play-services-auth:16.0.1] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/bae5dc3f5727279610a8b931c3274cf2/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+186
+187        <activity
+187-->[com.google.android.gms:play-services-base:17.1.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/3379954b54da4c690bd742f1e4b2cf6f/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+188            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+188-->[com.google.android.gms:play-services-base:17.1.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/3379954b54da4c690bd742f1e4b2cf6f/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+189            android:exported="false"
+189-->[com.google.android.gms:play-services-base:17.1.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/3379954b54da4c690bd742f1e4b2cf6f/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+190            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+190-->[com.google.android.gms:play-services-base:17.1.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/3379954b54da4c690bd742f1e4b2cf6f/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+191
+192        <meta-data
+192-->[com.google.android.gms:play-services-basement:17.1.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/fc37094cae7bcab02e53cd05528600fd/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+193            android:name="com.google.android.gms.version"
+193-->[com.google.android.gms:play-services-basement:17.1.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/fc37094cae7bcab02e53cd05528600fd/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+194            android:value="@integer/google_play_services_version" />
+194-->[com.google.android.gms:play-services-basement:17.1.0] /Users/akhilramidi/.gradle/caches/transforms-2/files-2.1/fc37094cae7bcab02e53cd05528600fd/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+195    </application>
+196
+197</manifest>
