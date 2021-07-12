@@ -29,10 +29,10 @@ import csv
 #getting image from firebase
 config = {
 
-  "apiKey": "AIzaSyBLh9JPlfznWqYXRASgtzpCKzbajycJmr0",
-  "authDomain": "pihacks-b60b7.firebaseapp.com",
-  "databaseURL": "https://pihacks-b60b7-default-rtdb.firebaseio.com",
-  "storageBucket": "pihacks-b60b7.appspot.com"
+  "apiKey": "",
+  "authDomain": "",
+  "databaseURL": "",
+  "storageBucket": ""
 }
 
 firebase = pyrebase.initialize_app(config)
@@ -45,7 +45,7 @@ def sendEmail(subject, message):
   tEmail = database.child('teacher').child("email").get().val()
 
   server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-  password= "ncodehackspass"
+  password= ""
   server.login('textbookassist@gmail.com', password)
 
   server.sendmail('textbookassist@gmail.com', 'sclarkson678@gmail.com', 'Subject: {}\n\n{}'.format(subject, message))
