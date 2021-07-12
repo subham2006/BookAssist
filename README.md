@@ -29,7 +29,7 @@ In the future we plan to expand to schools and increase our span of outreach in 
 
 [Firebase Arduino WiFiNINA](https://github.com/mobizt/Firebase-Arduino-WiFiNINA)
 
-Numpy, Scipy, Pandas, SMPTLib, NLTK, Pytorch and Scikit Learn were used in the backend.
+[Numpy](https://numpy.org/), [Scipy](https://www.scipy.org/), [Pandas](https://pandas.pydata.org/), [SMPTLib](https://docs.python.org/3/library/smtplib.html), [NLTK](https://www.nltk.org/), [Pytorch](https://pytorch.org/), and [Scikit Learn](https://scikit-learn.org/stable/) were used in the backend.
 
 [Flutter](https://flutter.dev) and Dart was used in the Webapp and Mobile App. 
 
