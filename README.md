@@ -19,18 +19,18 @@ Youtube Link: <https://youtu.be/trkDlYIMmDY>
 Webapp: <https://bookassist.web.app/#/>
 
 ### Libraries Used
-<https://github.com/JaidedAI/EasyOCR>
+[EasyOCR](https://github.com/JaidedAI/EasyOCR)
 
-<https://github.com/miso-belica/sumy>
+[sumy](https://github.com/miso-belica/sumy)
 
-<https://github.com/thisbejim/Pyrebase>
+[Pyrebase](https://github.com/thisbejim/Pyrebase)
 
-<https://github.com/arduino-libraries/WiFiNINA>
+[Arduino WiFiNINA](https://github.com/arduino-libraries/WiFiNINA)
 
-<https://github.com/mobizt/Firebase-Arduino-WiFiNINA>
+[Firebase Arduino WiFiNINA](https://github.com/mobizt/Firebase-Arduino-WiFiNINA)
 
-Numpy, Scipy, Pandas, , SMPTLib, NLTK, Pytorch and Scikit Learn were used in the backend.
+Numpy, Scipy, Pandas, SMPTLib, NLTK, Pytorch and Scikit Learn were used in the backend.
 
-Flutter and Dart was used in the Webapp and Mobile App. 
+[Flutter](https://flutter.dev) and Dart was used in the Webapp and Mobile App. 
 
 
