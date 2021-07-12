@@ -28,3 +28,5 @@ Webapp: <https://bookassist.web.app/#/>
 <https://github.com/arduino-libraries/WiFiNINA>
 
 <https://github.com/mobizt/Firebase-Arduino-WiFiNINA>
+
+Numpy, Scipy, Pandas, Pytorch and Scikit Learn were used.
