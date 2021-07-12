@@ -16,4 +16,4 @@ In the future we plan to expand to schools and increase our span of outreach in 
 
 Youtube Link: 
 
-<bookassist.web.app>
+<https://bookassist.web.app/#/>
