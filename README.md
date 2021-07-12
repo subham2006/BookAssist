@@ -14,9 +14,9 @@ We learned a lot about Flutter and Google Colab and how to create Web Apps from 
 In the future we plan to expand to schools and increase our span of outreach in order to help aid more students.
 
 ## Links
-Youtube Link: <https://youtu.be/trkDlYIMmDY>
+[Youtube Demo Link](https://youtu.be/trkDlYIMmDY)
 
-Webapp: <https://bookassist.web.app/#/>
+[Web App Demo](https://bookassist.web.app/)
 
 ### Libraries Used
 [EasyOCR](https://github.com/JaidedAI/EasyOCR)
