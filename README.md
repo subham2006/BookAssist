@@ -20,7 +20,11 @@ Webapp: <https://bookassist.web.app/#/>
 
 ### Libraries Used
 <https://github.com/JaidedAI/EasyOCR>
+
 <https://github.com/miso-belica/sumy>
+
 <https://github.com/thisbejim/Pyrebase>
+
 <https://github.com/arduino-libraries/WiFiNINA>
+
 <https://github.com/mobizt/Firebase-Arduino-WiFiNINA>
