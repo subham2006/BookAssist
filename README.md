@@ -29,4 +29,8 @@ Webapp: <https://bookassist.web.app/#/>
 
 <https://github.com/mobizt/Firebase-Arduino-WiFiNINA>
 
-Numpy, Scipy, Pandas, Pytorch and Scikit Learn were used.
+Numpy, Scipy, Pandas, , SMPTLib, NLTK, Pytorch and Scikit Learn were used in the backend.
+
+Flutter and Dart was used in the Webapp and Mobile App. 
+
+
